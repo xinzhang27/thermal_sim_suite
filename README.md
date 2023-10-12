@@ -12,3 +12,21 @@ The project is structured as follows:
 * `tests/`: Contains the tests of the project.
 * `doc/`: Contains the documentation of the project.
 * `examples/`: Contains examples of the project.
+
+## Project Setup
+
+### For Linux Systems
+
+```shell
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+### For Windows Systems
+
+```shell
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
