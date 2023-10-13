@@ -1,8 +1,8 @@
 import pandas as pd
 
-metal = pd.read_csv("../static/metal_datas.csv")
-ceramic = pd.read_csv("../static/ceramic_datas.csv")
-polymer = pd.read_csv("../static/polymer_datas.csv")
+metal = pd.read_csv("../../static/metal_datas.csv")
+ceramic = pd.read_csv("../../static/ceramic_datas.csv")
+polymer = pd.read_csv("../../static/polymer_datas.csv")
 # connect the dataframes to get the full unit
 df = pd.concat([metal, ceramic, polymer], ignore_index=True)
 print(df.columns)
