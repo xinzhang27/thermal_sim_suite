@@ -1,5 +1,5 @@
 # This file is an example of how to use the toolkit.py
-from toolkit import Material, Searcher, METAL_PATH, CERAMIC_PATH, POLYMER_PATH
+from src.toolkit import Material, Searcher, METAL_PATH
 
 # Get the metal data
 metal_data = Searcher(METAL_PATH)
