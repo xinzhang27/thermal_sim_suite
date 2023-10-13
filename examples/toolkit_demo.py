@@ -1,5 +1,5 @@
-# This file is an example of how to use the toolkit.py
-from src.toolkit import Material, Searcher, METAL_PATH
+# This file is an example of how to use the property.py
+from src.toolkit.property import Material, Searcher, METAL_PATH
 
 # Get the metal data
 metal_data = Searcher(METAL_PATH)

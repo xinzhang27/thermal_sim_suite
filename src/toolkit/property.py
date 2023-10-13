@@ -1,9 +1,9 @@
 # %%
 import pandas as pd
 
-METAL_PATH = '../static/metal_datas.csv'
-CERAMIC_PATH = '../static/ceramic_datas.csv'
-POLYMER_PATH = '../static/polymer_datas.csv'
+METAL_PATH = '../../static/metal_datas.csv'
+CERAMIC_PATH = '../../static/ceramic_datas.csv'
+POLYMER_PATH = '../../static/polymer_datas.csv'
 
 
 # %%
