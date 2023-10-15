@@ -1,5 +1,7 @@
 import data_page
+import hm_page
 import home_page
+import ml_page
 import pdf_page
 import theme
 
@@ -36,4 +38,24 @@ def data_analysis_page() -> None:
         data_page.content()
 
 
-ui.run(title="Thermal Simulation Suite", reload=True, native=False)
+@ui.page("/machine_learning")
+def machine_learning_page() -> None:
+    """
+    Create the machine learning page.
+    :return:
+    """
+    with theme.frame("Machine Learning"):
+        ml_page.content()
+
+
+@ui.page("/heuristic_method")
+def heuristic_method_page() -> None:
+    """
+    Create the heuristic method page.
+    :return:
+    """
+    with theme.frame("Heuristic Method"):
+        hm_page.content()
+
+
+ui.run(title="Thermal Simulation Suite", reload=True, native=True)
