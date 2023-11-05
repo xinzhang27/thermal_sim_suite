@@ -1,6 +1,6 @@
 from contextlib import contextmanager
 
-from menu import menu
+from src.pages.menu import menu
 
 from nicegui import ui
 
