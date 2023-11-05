@@ -7,3 +7,6 @@ scikit-learn
 nicegui
 pywebview
 pymupdf
+
+paramiko
+httpx

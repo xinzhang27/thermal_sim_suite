@@ -1,9 +1,4 @@
-import data_page
-import hm_page
-import home_page
-import ml_page
-import pdf_page
-import theme
+from src.pages import data_page, hm_page, home_page, theme, ml_page, pdf_page
 
 from nicegui import ui
 
