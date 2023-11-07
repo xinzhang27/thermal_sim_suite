@@ -3,6 +3,7 @@ from random import random
 
 
 def content() -> None:
+    ui.label("实现结果的可视化展示和后处理分析")
     with ui.grid(columns=2):
         ui.upload(label="Input Data")
         echart = ui.echart({
